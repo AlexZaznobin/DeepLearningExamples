@@ -1,6 +1,7 @@
 # General idea 
 
-In this notebook the simple MLP was made from scratch using basic python libraries.MLP is then used to make the simple binary classifier. 
+In this notebook the simple MLP was made from scratch using basic python libraries. MLP is then used as a  binary classifier. 
+
 The process is as follows: 
 
 1) Create class Value which saves information about the process of value calculation .This class is able to calculate gradients using the backward propagation. 
@@ -11,3 +12,5 @@ The process is as follows:
 6) Make a cycle which updates the values of weights and biases by adding to them a small portion of gradient with negative sign. 
 7) Analyse the results of classification. 
 
+#  Kudos 
+This notebook was inspired by Andrej Karpathy and his "Neural Networks: Zero to Hero" https://karpathy.ai/zero-to-hero.html
